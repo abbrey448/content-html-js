@@ -125,7 +125,7 @@ justify-content: space-between;
 align-items: center;
 flex-wrap: wrap;
 }
-.contact{
+.detail{
     text-align: center;
 }
 .footer-image img{
@@ -139,6 +139,33 @@ flex-wrap: wrap;
     text-align: right;
    font-size: 18px;
 }
+
+.contact{
+    padding:40px;
+    text-align:center;
+}
+
+.contact form{
+    width: 350px;
+    margin: auto;
+    flex-direction: column;
+    display: flex;
+    
+}
+
+.contact input,
+.contact textarea{
+    margin:10px 0;
+    padding:10px;
+}
+
+.contact button{
+    padding:10px;
+    background-color:greenyellow;
+    color:white;
+    cursor:pointer;
+}
+
 
 
 
